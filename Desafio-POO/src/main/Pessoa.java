@@ -15,11 +15,9 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-<<<<<<< HEAD
+
 	public String getEndereco() {
-=======
-	public String getEnderecao() {
->>>>>>> 8e967a88d30b5a83d5f8f8bc67e7563919af0da9
+
 		return endereco;
 	}
 	public void setEndereco(String endereco) {
