@@ -2,7 +2,7 @@ package main;
 
 public class Pessoa {
 	private String nome;
-	private String endereço;
+	private String endereco;
 	private String telefone;
 	private String rg; 
 	private String dataNacimento;
@@ -15,11 +15,13 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getEndereço() {
-		return endereço;
+
+	public String getEndereco() {
+
+		return endereco;
 	}
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 	public String getTelefone() {
 		return telefone;
@@ -42,10 +44,10 @@ public class Pessoa {
 	
 	
 	
-	public Pessoa(String nome, String endereço, String telefone, String rg, String dataNacimento) {
+	public Pessoa(String nome, String endereco, String telefone, String rg, String dataNacimento) {
 		super();
 		this.nome = nome;
-		this.endereço = endereço;
+		this.endereco = endereco;
 		this.telefone = telefone;
 		this.rg = rg;
 		this.dataNacimento = dataNacimento;
