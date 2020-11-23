@@ -17,9 +17,9 @@ public class Operario extends Pessoa {
 	public void setComissao(int comissao) {
 		this.comissao = comissao;
 	}
-	public Operario(String nome, String endereco, String telefone, String rg, String dataNacimento, int valorProducao,
+	public Operario(String nome, String endereco, String telefone, String rg, String dataNascimento, int valorProducao,
 			int comissao) {
-		super(nome, endereco, telefone, rg, dataNacimento);
+		super(nome, endereco, telefone, rg, dataNascimento);
 		this.valorProducao = valorProducao;
 		this.comissao = comissao;
 	}	

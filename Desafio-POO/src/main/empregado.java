@@ -3,7 +3,7 @@ package main;
 public class empregado extends Pessoa{
 	public int codigoSetor;
 	public double salarioBase;
-	public int imposto;
+	public double imposto;
 	
 	
 	
@@ -19,7 +19,7 @@ public class empregado extends Pessoa{
 	public void setSalarioBase(double salarioBase) {
 		this.salarioBase = salarioBase;
 	}
-	public int getImposto() {
+	public double getImposto() {
 		return imposto;
 	}
 	public void setImposto(int imposto) {
@@ -35,7 +35,8 @@ public class empregado extends Pessoa{
 	}
 	
 	public double getCalcularSalario() {
-		double salario = ((salarioBase*(imposto/100))-salarioBase);
+		double impostoCobrado = salarioBase * (imposto/100);
+		double salario = salarioBase-impostoCobrado;
 		return salario;
 	}
 	
